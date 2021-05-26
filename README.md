@@ -6,7 +6,7 @@ See the built files here: https://www.thingiverse.com/thing:4766367
 
 # Using this code
 
-This is written using the (SolidPython)[https://github.com/SolidCode/SolidPython], so you will need to install the Python module to use it with the command:
+This is written using the [SolidPython](https://github.com/SolidCode/SolidPython), so you will need to install the Python module to use it with the command:
 
 ```
 pip install solidpython
