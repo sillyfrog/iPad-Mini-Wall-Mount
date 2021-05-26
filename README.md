@@ -30,6 +30,8 @@ This will create a `generated` directory, with 3 files:
 - _iPad-Mini-Holder-Front.scad_: The front, the part that holds the iPad in place.
 - _iPadMiniHolder-preview.scad_: A preview of the 2 parts together - **do not use for printing!**
 
+The grub screws are in OpenSCAD format in the `screw.scad` file, you will need to print 4 of these.
+
 ## Development Notes
 
 Most of the dimensions and variables are at the top of the `iPadMiniHolder.py` file. Run the file to build the OpenSCAD file, you can then open up in OpenSCAD. You can enable `DEV_MODE` so you can see what it looks like while developing (the default in this repo). Without this set, OpenSCAD will not be able to preview the design without changes (and it'll probably be very slow). Enable this once you're happy, and then render and export the STL's (I use the command line when using OpenSCAD to render files, but the GUI will still work). Note that generation will take a _long_ time - maybe over an hour depending on your device.
